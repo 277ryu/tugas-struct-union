@@ -69,7 +69,7 @@ void assignGrades(studentType students[], int size) {
         else if (students[i].testScore >= 60)
             students[i].grade = 'D';
         else
-            students[i].grade = 'F';
+            students[i].grade = 'E';
     }
 }
 
@@ -117,4 +117,5 @@ void printHighest(studentType student[], int size, int highestScore) {
             cout << student[i].studentLName << ", " << student[i].studentFName << endl;
         }
     }
+
 }
